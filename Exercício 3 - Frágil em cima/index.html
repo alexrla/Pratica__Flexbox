@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            #caixas_container{
+                display: flex;
+
+                flex-wrap: wrap-reverse;
+
+                width: 900px;
+            }
+            
+            .caixa {
+                background-color: brown;
+
+                border: 5px solid black;
+
+                height: 290px;
+
+                width: 290px;
+            }
+
+            .fragil {
+                background-color: #F6ECAB;
+
+                font-size: 36px;
+
+                text-align: center; 
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="caixas_container">
+            <div class="caixa"></div>
+            <div class="caixa"></div>
+            <div class="caixa"></div>
+            <div class="caixa fragil">Frágil</div>
+            <div class="caixa fragil">Frágil</div>
+            <div class="caixa fragil">Frágil</div>
+        </div>
+    </body>
+</html>
